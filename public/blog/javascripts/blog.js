@@ -3,7 +3,7 @@
 (function() {
 	var el = $('[data-posts]');
 
-	var ws = new WebSocket("ws://push.flowchainjs.com/", ['echo-protocol']);
+	var ws = new WebSocket("ws://push.lay3eric.com/", ['echo-protocol']);
 
 	ws.onopen = function() {
 		console.log('websocket server connected');
